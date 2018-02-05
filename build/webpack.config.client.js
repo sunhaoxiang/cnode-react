@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: {
-    app: path.join(__dirname, '../src/app.js')
+    app: path.join(__dirname, '../client/app.js')
   },
   output: {
     filename: '[name].[hash].js',

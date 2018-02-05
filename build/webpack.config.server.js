@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   target: 'node',
   entry: {
-    app: path.join(__dirname, '../src/serverEntry.js')
+    app: path.join(__dirname, '../client/serverEntry.js')
   },
   output: {
     filename: 'serverEntry.js',
