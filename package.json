@@ -1,0 +1,26 @@
+{
+  "name": "cnode-react",
+  "version": "1.0.0",
+  "description": "cnode-react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunhaoxiang/cnode-react.git"
+  },
+  "author": "sunhaoxiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunhaoxiang/cnode-react/issues"
+  },
+  "homepage": "https://github.com/sunhaoxiang/cnode-react#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0"
+  }
+}
