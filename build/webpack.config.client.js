@@ -6,9 +6,9 @@ module.exports = {
     app: path.join(__dirname, '../client/app.js')
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
     filename: '[name].[hash].js',
-    publicPath: 'public/'
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: '/public'
   },
   module: {
     rules: [
