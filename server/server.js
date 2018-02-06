@@ -8,7 +8,7 @@ const template = fs.readFileSync(path.join(__dirname, '../dist/index.html'), 'ut
 
 const app = express()
 
-app.use('./public', express.static(path.join(__dirname, '../dist')))
+app.use('/public', express.static(path.join(__dirname, '../dist')))
 
 app.get('*', (req, res) => {
   const appString = ReactSSR.renderToString(serverEntry)
