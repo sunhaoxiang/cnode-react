@@ -1,5 +1,9 @@
+import Layout from '../../components/Layout'
+
 const Index = () => (
-  <p>this is topic detail</p>
+  <Layout>
+    <p>this is topic detail</p>
+  </Layout>
 )
 
 export default Index
