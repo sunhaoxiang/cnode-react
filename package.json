@@ -1,27 +1,16 @@
 {
   "name": "cnode-react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sunhaoxiang/cnode-react.git"
-  },
-  "author": "sunhaoxiang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sunhaoxiang/cnode-react/issues"
-  },
-  "homepage": "https://github.com/sunhaoxiang/cnode-react#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "next": "^5.0.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
