@@ -10,8 +10,8 @@ import TopicDetail from '../views/topic-detail/index';
 export default () => (
   <Router>
     <div>
-      <Link to="/">TopicList</Link>
-      <Link to="/detail">TopicDetail</Link>
+      <Link to="/">首页</Link>
+      <Link to="/detail">详情页</Link>
       <Route path="/" component={TopicList} exact />
       <Route path="/detail" component={TopicDetail} />
     </div>
